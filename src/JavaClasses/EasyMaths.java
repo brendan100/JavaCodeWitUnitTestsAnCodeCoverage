@@ -20,6 +20,7 @@ public  class EasyMaths {
     public boolean equal(int[] array1, int[] array2) {
         // Comment added by BW
         System.out.println("running equal method");
+        // Another comment added by Brendan
         if ((array1 == null) || (array2 == null)) {
             throw new IllegalArgumentException("null argument");
         }
